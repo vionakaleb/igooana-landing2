@@ -74,8 +74,8 @@ const Cta = ({
               style={{ marginTop: "10px", height: "100px" }}
             ></Input>
             <a
-              href="mailto:someone@example.com"
-              action="mailto:someone@example.com"
+              href="mailto:indolima@indonesia5.com"
+              action="mailto:indolima@indonesia5.com"
             >
               <img
                 height="50px"
