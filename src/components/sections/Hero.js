@@ -66,7 +66,7 @@ const Hero = ({
               <img
                 className="mt-5 mb-3"
                 alt="IGOOANA"
-                src="http://igooana.id:8080/images/igooana_logo.png?cb832e7f606853289c1ccb00af3b4a4a"
+                src={require("../../assets/images/igooana_logo.png")}
               />
               {/* Landing template for{" "}
               <span className="text-color-primary">startups</span> */}
