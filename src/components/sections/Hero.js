@@ -80,11 +80,13 @@ const Hero = ({
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="">
-                    See Details
-                  </Button>
+                  <a href="http://igooana.id:8080/login" target="_blank">
+                    <Button tag="a" color="primary" wideMobile>
+                      Visit IGOOANA
+                    </Button>
+                  </a>
                   <Button tag="a" color="dark" wideMobile href="">
-                    View on Github
+                    See Details
                   </Button>
                 </ButtonGroup>
               </div>
@@ -101,6 +103,19 @@ const Hero = ({
               aria-controls="video-modal"
               onClick={openModal}
             >
+              <img
+                src={require("../../assets/images/video-icon.png")}
+                alt="Play"
+                style={{
+                  position: "absolute",
+                  zIndex: "99",
+                  top: "50%",
+                  left: "50%",
+                  transform: "translate(-50%, -50%)",
+                  width: "100px",
+                  filter: "opacity(0.5)",
+                }}
+              />
               <Image
                 className="has-shadow"
                 src={require("./../../assets/images/video-placeholder.jpg")}
