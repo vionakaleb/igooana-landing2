@@ -73,13 +73,14 @@ const Header = ({
   };
 
   const classes = classNames(
-    "site-header",
+    // "site-header",
     bottomOuterDivider && "has-bottom-divider",
     className
   );
 
   return (
-    <header {...props} className={classes}>
+    <header {...props} className={classes} style={{position: 'fixed', top: 0,
+    width: '100%', zIndex: '99', backgroundColor: '#2A2D32'}}>
       <div className="container">
         <div
           className={classNames(

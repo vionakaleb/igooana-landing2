@@ -4,8 +4,8 @@ import Footer from '../components/layout/Footer';
 
 const LayoutDefault = ({ children }) => (
   <>
-    <Header navPosition="right" className="reveal-from-bottom" />
-    <main className="site-content">
+    <Header navPosition="right" className="reveal-from-top" />
+    <main className="site-content" style={{marginTop: '8vh'}}>
       {children}
     </main>
     <Footer />

@@ -80,7 +80,7 @@ const Hero = ({
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <a href="http://igooana.id:8080/login" target="_blank">
+                  <a href="http://igooana.id:8080/login" target="_blank" rel="noopener noreferrer">
                     <Button tag="a" color="primary" wideMobile>
                       Visit IGOOANA
                     </Button>
