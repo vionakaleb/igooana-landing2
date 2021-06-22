@@ -63,7 +63,7 @@ const FeaturesSplit = ({
   return (
     <section {...props} className={outerClasses}>
       <div className="container">
-        <div className={innerClasses}>
+        <div className={innerClasses} style={{padding: '80px 0 0 0'}}>
           <SectionHeader
             data={sectionHeader}
             className="center-content reveal-from-left"
@@ -72,6 +72,8 @@ const FeaturesSplit = ({
             data={sectionHeader2}
             className="center-content reveal-from-right"
           />
+        </div>
+        <div className={innerClasses}>
           <div className={splitClasses}>
             <div className="split-item">
               <div

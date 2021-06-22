@@ -57,28 +57,28 @@ const FeaturesTiles = ({
     {
       title: "MARKET BISNIS ANALISIS",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Dengan melakukan analisa yang baik dan tepat, Anda akan lebih bisa memahami keadaan pasar yang sesungguhnya.",
       link: "MARKET BISNIS ANALISIS",
       image: "nc-album-2",
     },
     {
       title: "DISTRIBUTOR",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Distribusi menjadi kunci utama pemasaran sebuah produk. Jika Anda seorang distributor, anda bisa memperluas rantai distribusi ke berbagai arah.",
       link: "DISTRIBUTOR",
       image: "nc-bulb-63",
     },
     {
       title: "WAREHOUSE MANAGEMENT",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Warehouse management system merupakan sebuah platform yang berfungsi untuk mempermudah pengelolaan barang di dalam gudang.",
       link: "WAREHOUSE MANAGEMENT",
       image: "nc-chart-bar-32",
     },
     {
       title: "HR MANAGEMENT",
       description:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Dengan Basic HR Management, staf HR akan memahami fungsi, tugas, dan tanggung jawab dalam mengelola SDM yang ada dengan efektif.",
       link: "HR MANAGEMENT",
       image: "nc-sun-fog-29",
     },

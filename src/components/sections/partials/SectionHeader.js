@@ -27,11 +27,6 @@ const SectionHeader = ({ className, data, children, tag, ...props }) => {
         <div {...props} className={classes}>
           <div
             className="container-xs"
-            style={{
-              border: "1px solid #25282c",
-              borderRadius: "10px",
-              padding: "10px",
-            }}
           >
             {children}
             {data.title && (
