@@ -40,7 +40,7 @@ class ReactSlickDemo extends React.Component {
         <Slider {...settings}>
           {carouselImages.map((image) => 
             <div>
-              <img src={image.imageUrl} alt="Cat" style={{height: '60vh', width: '100vw'}}/>
+              <img src={image.imageUrl} alt="Cat" style={{height: '80vh', width: '100vw'}}/>
             </div>
             )
           }
@@ -54,12 +54,12 @@ const Home = () => {
 
   return (
     <>
-      <ReactSlickDemo />
-      <Hero className="illustration-section-01" />
-      <FeaturesTiles />
-      <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
-      <Testimonial topDivider />
-      <Cta split />
+      <Hero id="section1" className="illustration-section-01" />
+      <ReactSlickDemo id="carousel" />
+      <FeaturesTiles id="section2" />
+      <FeaturesSplit id="section3" invertMobile topDivider imageFill className="illustration-section-02" />
+      <Testimonial id="section4" topDivider />
+      <Cta id="contact" split />
     </>
   );
 }

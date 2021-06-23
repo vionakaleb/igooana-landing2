@@ -90,7 +90,7 @@ const FeaturesTiles = ({
         <div className={innerClasses}>
           <SectionHeader
             data={sectionHeader}
-            className="center-content reveal-from-left"
+            className="center-content reveal-from-left mt-5"
           />
           <SectionHeader
             data={sectionHeader2}

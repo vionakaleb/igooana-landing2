@@ -113,12 +113,36 @@ const Header = ({
                     )}
                   >
                     <li>
-                      <Link to="#0" onClick={closeMenu}>
-                        Documentation
+                      <Link to="#carousel" onClick={closeMenu}>
+                        Carousel
                       </Link>
                     </li>
                   </ul>
-                  {!hideSignin && (
+                  <ul
+                    className={classNames(
+                      "list-reset text-xs",
+                      navPosition && `header-nav-${navPosition}`
+                    )}
+                  >
+                    <li>
+                      <Link to="#section1" onClick={closeMenu}>
+                        Section1
+                      </Link>
+                    </li>
+                  </ul>
+                  <ul
+                    className={classNames(
+                      "list-reset text-xs",
+                      navPosition && `header-nav-${navPosition}`
+                    )}
+                  >
+                    <li>
+                      <Link to="#section2" onClick={closeMenu}>
+                        Section2
+                      </Link>
+                    </li>
+                  </ul>
+                  {/* {!hideSignin && (
                     <ul className="list-reset header-nav-right">
                       <li>
                         <Link
@@ -130,7 +154,7 @@ const Header = ({
                         </Link>
                       </li>
                     </ul>
-                  )}
+                  )} */}
                 </div>
               </nav>
             </>
