@@ -735,14 +735,14 @@ p {
   .header-hero .shape {
     position: absolute; }
     .header-hero .shape.shape-1 {
-      width: 150px;
-      height: 150px;
+      width: 50px;
+      height: 50px;
       /* background: -webkit-linear-gradient(rgba(254, 132, 100, 0.5) 0%, rgba(254, 110, 154, 0.5) 100%);
       background: -o-linear-gradient(rgba(254, 132, 100, 0.5) 0%, rgba(254, 110, 154, 0.5) 100%); */
-      background: linear-gradient(#40916c 0%, #40916c 100%);
+      background: linear-gradient(#40916c 0%, #243e32 100%);
       border-radius: 50%;
-      left: 130px;
-      top: 25%;
+      left: 20%;
+      top: 28%;
       -webkit-animation: animation1 2s linear infinite;
       -moz-animation: animation1 2s linear infinite;
       -o-animation: animation1 2s linear infinite;
@@ -750,11 +750,11 @@ p {
     .header-hero .shape.shape-2 {
       width: 80px;
       height: 80px;
-      background: -webkit-linear-gradient(rgba(51, 200, 193, 0.5) 0%, rgba(17, 155, 210, 0.5) 100%);
-      background: -o-linear-gradient(rgba(51, 200, 193, 0.5) 0%, rgba(17, 155, 210, 0.5) 100%);
-      background: linear-gradient(rgba(51, 200, 193, 0.5) 0%, rgba(17, 155, 210, 0.5) 100%);
+      background: -webkit-linear-gradient(rgba(51, 200, 193, 0.5) 0%, rgba(23, 91, 118, 0.5) 100%);
+      background: -o-linear-gradient(rgba(51, 200, 193, 0.5) 0%, rgba(23, 91, 118, 0.5) 100%);
+      background: linear-gradient(rgba(51, 200, 193, 0.5) 0%, rgba(23, 91, 118, 0.5) 100%);
       left: 150px;
-      bottom: 40px;
+      bottom: 0;
       border-radius: 50%;
       -webkit-animation: animation1 2s linear infinite;
       -moz-animation: animation1 2s linear infinite;
@@ -765,30 +765,30 @@ p {
       height: 40px;
       /* background: -webkit-linear-gradient(rgba(54, 28, 193, 0.5) 0%, rgba(46, 130, 239, 0.5) 100%);
       background: -o-linear-gradient(rgba(54, 28, 193, 0.5) 0%, rgba(46, 130, 239, 0.5) 100%); */
-      background: linear-gradient(#40916c 0%, #40916c 100%);
-      bottom: 25%;
-      left: 26%;
+      background: linear-gradient(#285641 0%, #183528 100%);
+      bottom: 42%;
+      right: 12%;
       border-radius: 50%;
       -webkit-animation: animation1 2s linear infinite;
       -moz-animation: animation1 2s linear infinite;
       -o-animation: animation1 2s linear infinite;
       animation: animation1 2s linear infinite; }
     .header-hero .shape.shape-4 {
-      background-color: #1b4332;
+      background:linear-gradient(#1b4332 0%, #112c21 100%);
       width: 80px;
       height: 80px;
       border-radius: 50%;
       top: 175px;
-      left: 40%;
+      left: 62%;
       -webkit-animation: animation1 2s linear infinite;
       -moz-animation: animation1 2s linear infinite;
       -o-animation: animation1 2s linear infinite;
       animation: animation1 2s linear infinite; }
     .header-hero .shape.shape-5 {
-      width: 40px;
-      height: 40px;
-      background-color: rgba(108, 99, 255, 0.55);
-      left: 50%;
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(rgba(99, 255, 200, 0.55) 0%, rgba(71, 162, 130, 0.55) 100%);
+      right: 23%;
       -webkit-transform: translateX(-50%);
       -moz-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
@@ -803,7 +803,7 @@ p {
     .header-hero .shape.shape-6 {
       width: 30px;
       height: 30px;
-      background-color: rgba(235, 163, 26, 0.55);
+      background: linear-gradient( rgba(102, 131, 20, 0.55) 0%,  rgba(73, 94, 16, 0.55) 100%);
       border-radius: 50%;
       left: 45%;
       bottom: 70px;
