@@ -42,11 +42,11 @@ const FeaturesTiles = ({
     pushLeft && "push-left"
   );
 
-  const sectionHeader = {
-    title: "SIMPLY AND SIMPLIFY",
-    paragraph:
-      "IGOOANA dirancang sebagai solusi yang dapat memberikan manfaat bagi mitra kerja untuk mempermudah serta mempercepat proses monitoring dan control project di lapangan.",
-  };
+  // const sectionHeader = {
+  //   title: "SIMPLY AND SIMPLIFY",
+  //   paragraph:
+  //     "IGOOANA dirancang sebagai solusi yang dapat memberikan manfaat bagi mitra kerja untuk mempermudah serta mempercepat proses monitoring dan control project di lapangan.",
+  // };
 
   const sectionHeader2 = {
     title: "INTEGRATED",
@@ -88,13 +88,13 @@ const FeaturesTiles = ({
     <section {...props} className={outerClasses}>
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader
+          {/* <SectionHeader
             data={sectionHeader}
             className="center-content reveal-from-left mt-5"
-          />
+          /> */}
           <SectionHeader
             data={sectionHeader2}
-            className="center-content reveal-from-right"
+            className="center-content reveal-from-right mt-5"
           />
           <div className={tilesClasses}>
             <div

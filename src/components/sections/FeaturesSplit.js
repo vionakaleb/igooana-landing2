@@ -1,7 +1,7 @@
 import React from "react";
 import classNames from "classnames";
 import { SectionSplitProps } from "../../utils/SectionProps";
-import SectionHeader from "./partials/SectionHeader";
+// import SectionHeader from "./partials/SectionHeader";
 import Image from "../elements/Image";
 
 const propTypes = {
@@ -48,22 +48,22 @@ const FeaturesSplit = ({
     alignTop && "align-top"
   );
 
-  const sectionHeader = {
-    title: "VISI",
-    paragraph:
-      "Visi Igooana adalah sebagai perusahaan teknologi karya anak bangsa berskala internasional yang solutif bagi pengembangan bisnis para mitra kerja dan juga sebagai pelopor (Pioneer) untuk aplikasi mobile berbasis data collection.",
-  };
+  // const sectionHeader = {
+  //   title: "VISI",
+  //   paragraph:
+  //     "Visi Igooana adalah sebagai perusahaan teknologi karya anak bangsa berskala internasional yang solutif bagi pengembangan bisnis para mitra kerja dan juga sebagai pelopor (Pioneer) untuk aplikasi mobile berbasis data collection.",
+  // };
 
-  const sectionHeader2 = {
-    title: "MISI",
-    paragraph:
-      "Dengan Misi mengutamakan kepuasan pelanggan, serta terus melakukan inovasi dan juga adaptive dalam menyesuaikan perkembangan teknologi bisnis yang lebih advance melalui pengembangan teknologi melalui produk digital, seperti: Market business analysis, distribusi-logistik, warehouse management, dan HR management.",
-  };
+  // const sectionHeader2 = {
+  //   title: "MISI",
+  //   paragraph:
+  //     "Dengan Misi mengutamakan kepuasan pelanggan, serta terus melakukan inovasi dan juga adaptive dalam menyesuaikan perkembangan teknologi bisnis yang lebih advance melalui pengembangan teknologi melalui produk digital, seperti: Market business analysis, distribusi-logistik, warehouse management, dan HR management.",
+  // };
 
   return (
     <section {...props} className={outerClasses}>
       <div className="container">
-        <div className={innerClasses} style={{padding: '80px 0 0 0'}}>
+        {/* <div className={innerClasses} style={{padding: '80px 0 0 0'}}>
           <SectionHeader
             data={sectionHeader}
             className="center-content reveal-from-left"
@@ -72,7 +72,7 @@ const FeaturesSplit = ({
             data={sectionHeader2}
             className="center-content reveal-from-right"
           />
-        </div>
+        </div> */}
         <div className={innerClasses}>
           <div className={splitClasses}>
             <div className="split-item">
