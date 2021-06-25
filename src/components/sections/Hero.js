@@ -72,23 +72,13 @@ const Hero = ({
             <div class="shape shape-4"></div>
             <div class="shape shape-5"></div>
             <div class="shape shape-6"></div>
+            <div class="header-shape-1"></div>
+            <div class="header-shape-2"></div>
             
             <div class="container">
               <div className="container-sm">
                 <div className={innerClasses}>
                   <div className="hero-content">
-                    <h1
-                      className="mt-0 mb-16 reveal-from-bottom"
-                      data-reveal-delay="200"
-                    >
-                      <img
-                        className="mt-5 mb-3"
-                        alt="IGOOANA"
-                        src={require("../../assets/images/igooana_logo.png")}
-                      />
-                      {/* Landing template for{" "}
-                      <span className="text-color-primary">startups</span> */}
-                    </h1>
                     <div className="container-xs">
                       <p
                         className="m-0 mb-3 reveal-from-bottom"
@@ -153,23 +143,7 @@ const Hero = ({
                   />
                 </div>
               </div>
-
-                {/* <div class="row align-items-center justify-content-center justify-content-lg-between">
-                    <div class="col-lg-6 col-md-10">
-                        <div class="header-hero-content">
-                            <h3 class="header-title wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.2s"><span>You're Using</span> Free Lite Version of AppLand</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 col-10">
-                        <div class="header-image">
-                            <div class="image-shape wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.8s">
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
             </div>
-            <div class="header-shape-1"></div>
-            <div class="header-shape-2"></div>
         </div>
     </section>
   );
