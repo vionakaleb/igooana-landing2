@@ -106,7 +106,7 @@ const Header = ({
                 className={classNames("header-nav", isActive && "is-active")}
               >
                 <div className="header-nav-inner">
-                  <ul
+                  {/* <ul
                     className={classNames(
                       "list-reset text-xs",
                       navPosition && `header-nav-${navPosition}`
@@ -114,7 +114,7 @@ const Header = ({
                   >
                     <li>
                       <Link to="#carousel" onClick={closeMenu}>
-                        Carousel
+                        Go to IGOOANA
                       </Link>
                     </li>
                   </ul>
@@ -141,20 +141,15 @@ const Header = ({
                         Section2
                       </Link>
                     </li>
+                  </ul> */}
+                  {/* !hideSignin */}
+                  <ul className="list-reset header-nav-right">
+                    <li>
+                      <a href="http://igooana.id:8080/login" target="_blank" rel="noopener noreferrer" className="button button-primary button-wide-mobile button-sm">
+                          Go to Site
+                      </a>
+                    </li>
                   </ul>
-                  {/* {!hideSignin && (
-                    <ul className="list-reset header-nav-right">
-                      <li>
-                        <Link
-                          to="#0"
-                          className="button button-primary button-wide-mobile button-sm"
-                          onClick={closeMenu}
-                        >
-                          Sign up
-                        </Link>
-                      </li>
-                    </ul>
-                  )} */}
                 </div>
               </nav>
             </>

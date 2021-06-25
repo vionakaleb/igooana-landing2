@@ -54,7 +54,7 @@ button {
   border: none;
   background: #40a080;
   color: #FFFFFF;
-  /* border-radius: 30px; */
+  border-radius: 2px;
   text-transform: uppercase;
   box-sizing: border-box;
   padding: 15px 40px;

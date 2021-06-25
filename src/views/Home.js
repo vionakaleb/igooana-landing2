@@ -135,7 +135,7 @@ const Home = () => {
             >
             <Fade in={item.modal}>
               <div className={classes.paper}>
-                <p id="transition-modal-description">{item.description}</p>
+                <p id="transition-modal-description" style={{maxWidth: '800px'}}>{item.description}</p>
               </div>
             </Fade>
           </Modal>
