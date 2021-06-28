@@ -88,12 +88,12 @@ button:hover {
 
 .slider-wrapper {
   position: relative;
-  height: 60vh;
+  height: 52vh;
   overflow: hidden;
 }
 
 .slide {
-  height: 60vh;
+  height: 52vh;
   background-size: cover !important;
 }
 
@@ -222,13 +222,13 @@ button:hover {
 
 @media (max-height: 500px) {
   .slider-wrapper, .slide {
-    height: calc(60vh - 20vh);
+    height: calc(40vh);
   }    
 }
 
 @media (max-width: 640px) {
   .slider-wrapper, .slide {
-    height: calc(60vh - 10vh);
+    height: calc(50vh);
   }    
 }
 
