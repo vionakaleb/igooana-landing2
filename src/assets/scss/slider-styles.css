@@ -141,6 +141,10 @@ button:hover {
   right: 10px;
 }
 
+.nextButton svg {
+  margin: auto;
+}
+
 .nextButton:hover {
   right: 0;
 }
@@ -218,13 +222,13 @@ button:hover {
 
 @media (max-height: 500px) {
   .slider-wrapper, .slide {
-    height: calc(100vh - 75px);
+    height: calc(60vh - 20vh);
   }    
 }
 
 @media (max-width: 640px) {
   .slider-wrapper, .slide {
-    height: calc(80vh - 75px);
+    height: calc(60vh - 10vh);
   }    
 }
 
